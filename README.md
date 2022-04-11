@@ -1,4 +1,5 @@
 # DOVM Router
+[![npm (scoped)](https://img.shields.io/npm/v/@dovm/router)](https://www.npmjs.com/package/@dovm/router)
 
 This is the official router for DOVM.
 
