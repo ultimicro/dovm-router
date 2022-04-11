@@ -1,0 +1,36 @@
+{
+  "name": "@dovm/router",
+  "version": "0.0.1",
+  "description": "Page router for DOVM",
+  "keywords": [
+    "dovm",
+    "router"
+  ],
+  "homepage": "https://github.com/ultimicro/dovm-router",
+  "bugs": "https://github.com/ultimicro/dovm-router/issues",
+  "license": "MIT",
+  "files": [
+    "lib/**"
+  ],
+  "main": "lib/index.js",
+  "type": "module",
+  "repository": "github:ultimicro/dovm-router",
+  "scripts": {
+    "compile": "rimraf lib && tsc --outDir lib",
+    "prepack": "npm run compile",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@dovm/core": "^0.0.1",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
