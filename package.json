@@ -21,8 +21,10 @@
     "test": "mocha"
   },
   "dependencies": {
-    "@dovm/core": "^0.0.1",
     "tslib": "^2.3.1"
+  },
+  "peerDependencies": {
+    "@dovm/core": "^0.0.1"
   },
   "devDependencies": {
     "@types/chai": "^4.3.0",
